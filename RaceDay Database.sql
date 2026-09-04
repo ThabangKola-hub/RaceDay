@@ -313,3 +313,18 @@ INNER JOIN Event e
     ON en.EventId = e.EventId
 INNER JOIN Category c
     ON en.CategoryId = c.CategoryId;
+
+    --Viewing tables
+    SELECT * FROM [User];
+
+SELECT * FROM Event;
+
+SELECT * FROM Category;
+
+SELECT * FROM Route;
+
+SELECT * FROM Enrolment;
+
+SELECT * FROM Result;
+
+SELECT * FROM WeatherCache;
