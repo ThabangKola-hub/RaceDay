@@ -298,3 +298,18 @@ VALUES
     (2, 19.80, 'Sunny', 11.50),
     (3, 24.10, 'Clear', 18.70);
 GO
+
+--Joining then displaying
+SELECT
+    u.Name AS Participant,
+    e.Name AS Event,
+    c.Name AS Category,
+    en.EnrolmentDate,
+    en.Status
+FROM Enrolment en
+INNER JOIN [User] u
+    ON en.UserId = u.UserId
+INNER JOIN Event e
+    ON en.EventId = e.EventId
+INNER JOIN Category c
+    ON en.CategoryId = c.CategoryId;
