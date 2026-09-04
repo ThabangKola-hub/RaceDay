@@ -289,3 +289,12 @@ VALUES
     (1, '03:48:22', 127),
     (3, '02:01:45', 84);
 GO
+
+--inserting into weather cache
+INSERT INTO WeatherCache
+    (EventId, TemperatureC, Conditions, WindSpeedKmh)
+VALUES
+    (1, 22.50, 'Partly Cloudy', 14.20),
+    (2, 19.80, 'Sunny', 11.50),
+    (3, 24.10, 'Clear', 18.70);
+GO
