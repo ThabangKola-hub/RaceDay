@@ -88,7 +88,7 @@ CREATE TABLE Category
 );
 GO
 
---Create SRoute table
+--Create Route table
 CREATE TABLE Route
 (
     RouteId INT IDENTITY(1,1) PRIMARY KEY,
@@ -110,7 +110,7 @@ CREATE TABLE Route
 );
 GO
 
---Creating Enrolment table
+--Create Enrolment table
 CREATE TABLE Enrolment
 (
     EnrolmentId INT IDENTITY(1,1) PRIMARY KEY,
