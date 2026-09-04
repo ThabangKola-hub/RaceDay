@@ -149,7 +149,7 @@ CREATE TABLE Enrolment
 );
 GO
 
---Craeting results table
+--Craete results table
 CREATE TABLE Result
 (
     ResultId INT IDENTITY(1,1) PRIMARY KEY,
