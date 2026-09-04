@@ -5,7 +5,7 @@ GO
 USE RaceDayDB;
 GO
 
---Creating user table
+--Create user table
 CREATE TABLE [User]
 (
     UserId INT IDENTITY(1,1) PRIMARY KEY,
