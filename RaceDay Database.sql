@@ -1,4 +1,4 @@
---Creating database
+--Created database
 CREATE DATABASE RaceDayDB;
 GO
 
