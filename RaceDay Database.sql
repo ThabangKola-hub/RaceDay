@@ -282,3 +282,10 @@ VALUES
     (4, 3, 7);
 GO
 
+--inserting into results
+INSERT INTO Result
+    (EnrolmentId, FinishTime, Position)
+VALUES
+    (1, '03:48:22', 127),
+    (3, '02:01:45', 84);
+GO
