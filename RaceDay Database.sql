@@ -228,3 +228,22 @@ VALUES
         'Cape Town, Western Cape'
     );
 GO
+
+--Inserting into category
+INSERT INTO Category
+    (EventId, Name, DistanceKm, MaxParticipants)
+VALUES
+    -- Soweto Marathon
+    (1, 'Marathon', 42.20, 15000),
+    (1, 'Half Marathon', 21.10, 10000),
+    (1, '10 KM Run', 10.00, 5000),
+
+    -- Pretoria City Run
+    (2, '21 KM Run', 21.10, 5000),
+    (2, '10 KM Run', 10.00, 4000),
+    (2, '5 KM Fun Run', 5.00, 2000),
+
+    -- Cape Town Cycle Challenge
+    (3, '109 KM Cycle', 109.00, 10000),
+    (3, '42 KM Cycle', 42.00, 5000);
+GO
