@@ -25,7 +25,8 @@ CREATE TABLE [User]
         DEFAULT SYSDATETIME()
 );
 GO
---Creating Event table
+
+--Creating Events table
 CREATE TABLE Event
 (
     EventId INT IDENTITY(1,1) PRIMARY KEY,
