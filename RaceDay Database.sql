@@ -169,7 +169,7 @@ CREATE TABLE Result
 );
 GO
 
---Craeting weather cache
+--Craete weather cache
 CREATE TABLE WeatherCache
 (
     WeatherId INT IDENTITY(1,1) PRIMARY KEY,
