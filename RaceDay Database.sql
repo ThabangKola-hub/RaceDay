@@ -201,3 +201,30 @@ VALUES
     ('Sipho Nkosi', 'sipho.participant@raceday.co.za', 'HASHED_PASSWORD_003', 'Participant'),
     ('Amahle Ndlovu', 'amahle.participant@raceday.co.za', 'HASHED_PASSWORD_004', 'Participant');
 GO
+
+--inserting into Events
+INSERT INTO Event
+    (OrganiserId, Name, Description, EventDate, Location)
+VALUES
+    (
+        1,
+        'Soweto Marathon',
+        'Annual road running event through Soweto and surrounding areas.',
+        '2026-11-01',
+        'Soweto, Gauteng'
+    ),
+    (
+        1,
+        'Pretoria City Run',
+        'Road running event through Pretoria city and surrounding suburbs.',
+        '2026-10-18',
+        'Pretoria, Gauteng'
+    ),
+    (
+        2,
+        'Cape Town Cycle Challenge',
+        'Road cycling event featuring multiple distance categories.',
+        '2026-12-06',
+        'Cape Town, Western Cape'
+    );
+GO
