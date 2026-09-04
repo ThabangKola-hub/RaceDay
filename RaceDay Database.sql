@@ -88,7 +88,7 @@ CREATE TABLE Category
 );
 GO
 
---Creating Route table
+--Create SRoute table
 CREATE TABLE Route
 (
     RouteId INT IDENTITY(1,1) PRIMARY KEY,
