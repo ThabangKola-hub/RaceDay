@@ -58,7 +58,7 @@ CREATE TABLE Event
 );
 GO
 
---Craeting category table
+--Creating category table
 CREATE TABLE Category
 (
     CategoryId INT IDENTITY(1,1) PRIMARY KEY,
