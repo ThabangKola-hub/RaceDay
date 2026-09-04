@@ -247,3 +247,27 @@ VALUES
     (3, '109 KM Cycle', 109.00, 10000),
     (3, '42 KM Cycle', 42.00, 5000);
 GO
+
+--inserting into routes
+INSERT INTO Route
+    (EventId, RouteName, DistanceKm, Description)
+VALUES
+    (
+        1,
+        'Soweto Marathon Main Route',
+        42.20,
+        'Main marathon route through Soweto and surrounding areas.'
+    ),
+    (
+        2,
+        'Pretoria City Route',
+        21.10,
+        'Urban road route through central Pretoria and surrounding suburbs.'
+    ),
+    (
+        3,
+        'Cape Town Coastal Route',
+        109.00,
+        'Long-distance cycling route along the Cape Town coastline.'
+    );
+GO
