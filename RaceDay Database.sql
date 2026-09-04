@@ -192,3 +192,12 @@ CREATE TABLE WeatherCache
 );
 GO
 
+--Inserting users data
+INSERT INTO [User]
+    (Name, Email, PasswordHash, Role)
+VALUES
+    ('Thabo Mokoena', 'thabo.organiser@raceday.co.za', 'HASHED_PASSWORD_001', 'Organiser'),
+    ('Lerato Dlamini', 'lerato.organiser@raceday.co.za', 'HASHED_PASSWORD_002', 'Organiser'),
+    ('Sipho Nkosi', 'sipho.participant@raceday.co.za', 'HASHED_PASSWORD_003', 'Participant'),
+    ('Amahle Ndlovu', 'amahle.participant@raceday.co.za', 'HASHED_PASSWORD_004', 'Participant');
+GO
