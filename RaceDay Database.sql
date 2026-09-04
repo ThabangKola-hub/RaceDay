@@ -271,3 +271,14 @@ VALUES
         'Long-distance cycling route along the Cape Town coastline.'
     );
 GO
+
+--Inserting into enrolments
+INSERT INTO Enrolment
+    (UserId, EventId, CategoryId)
+VALUES
+    (3, 1, 1),
+    (3, 2, 4),
+    (4, 1, 2),
+    (4, 3, 7);
+GO
+
